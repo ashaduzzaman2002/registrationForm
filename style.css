@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner2.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.head{
+    width: 870px;
+    background-color: rgba(0,0,0,0.6);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.main{
+    background-color: rgba(0,0,0,0.5);
+    width: 870px;
+    margin: auto;
+}
+
+form{
+    padding: 10px;
+    color: #ffffff;
+}
+#name{
+    width: 100%;
+}
+.name{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 125px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#first-name{
+    position: relative;
+    left: 140px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    top: -27px;
+    color: #555; 
+    border: none;
+}
+
+#last-name{
+    position: relative;
+    left: 311px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+#gender{
+    width: 100%;
+    display: flex;
+}
+.gender{
+    margin-left: 13px;
+    width: 125px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.gender-radio{
+    padding-top: 4px ;
+
+}
+.gender1{
+    padding-right: 27px;
+}
+.row1{
+    display: flex;
+    width: 100%;
+    margin-top: 19px;
+}
+#adds{
+    display: flex;
+    margin-left: 13px;
+}
+.myadds{
+    width: 125px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#myadds{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+#pin{
+    display: flex;
+    margin-left: 40px;
+}
+.myPin{
+    width: 136px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#myPin{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+
+.row2{
+    display: flex;
+    width: 100%;
+    margin-top: 23px;
+}
+#state{
+    display: flex;
+    margin-left: 13px;
+}
+.state{
+    width: 125px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#myState{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+
+#country{
+    display: flex;
+    margin-left: 40px;
+}
+.country{
+    width: 78px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 59px;
+}
+#myCountry{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 37px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+    direction: none;
+}
+
+.row3{
+    display: flex;
+    width: 100%;
+    margin-top: 23px;
+}
+#phone{
+    display: flex;
+    margin-left: 13px;
+}
+.phone{
+    width: 125px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#myPhone{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+#language{
+    display: flex;
+    margin-left: 40px;
+}
+.language{
+    width: 104px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 35px;
+}
+#myLanguage{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 21px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+.row4{
+    display: flex;
+    width: 100%;
+    margin-top: 23px;
+}
+.degree{
+    display: flex;
+    margin-left: 13px;
+}
+.myDegree{
+    width: 125px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#Degree{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 12px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+#university{
+    display: flex;
+    margin-left: 40px;
+}
+.university{
+    width: 107px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 35px;
+}
+#myUniversity{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 21px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+}
+#hobbies{
+    margin-left: 13px;
+    margin-top: 23px;
+    display: flex;
+}
+.hobbies{
+    width: 125px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#myHobbies{
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 12px;
+    font-size: 16px;
+    top: -27px;
+    color: #555;
+    border: none;
+    width: 75.3%;
+}
+
+button{
+    border: none;
+    background: none;
+    color: #ffffff;
+}
+.btn{
+    margin: 40px 40% 30px 37%;
+    display: flex;
+}
+.white-btn{
+    background: #00b894;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.red-btn{
+    background: #f44336;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.white-btn:hover{
+    background: #ffffff;
+    color: #000;
+    transition: 0.5s;
+}
+.red-btn:hover{
+    background: #ffffff;
+    color: #000;
+    transition: 0.5s;
+}
+footer{
+    text-align: center;
+    margin-top: 87px;
+}
